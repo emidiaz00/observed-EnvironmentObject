@@ -55,7 +55,9 @@ struct ContentView: View {
                     }.padding(.all)
                 }.background(Color.red)
                     .cornerRadius(18)
+                
             }
+            SecondViewUIView()
         }
         
     }

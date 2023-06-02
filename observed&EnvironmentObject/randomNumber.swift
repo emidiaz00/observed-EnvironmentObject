@@ -11,10 +11,11 @@ import Combine
 
 class ramdomNumber: ObservableObject {
     @Published var number : Int = 0
+    @Published var contador : Int = 1
     var timer = Timer()
     
     init() {
-        start()
+        
     }
     
     func start() {
